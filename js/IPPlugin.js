@@ -3,7 +3,7 @@
 $.fn.selfsettings={
 		  	 parent_css:{},//当前元素的CSS样式
 	         input_css:{"font-size":"20px","ime-mode":"disabled"},//生成的每个input标签的样式
-	         xhforID:[],//生成的每个Input标签的ID属性数字（暂时没有用）
+	         xhforID:[],//生成的每个Input标签的ID属性数字
 	         ipaddress:""//默认的IP数据 
 };
 //插件初始化的默认方法 
