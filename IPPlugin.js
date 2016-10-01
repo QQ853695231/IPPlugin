@@ -20,6 +20,10 @@ $.fn.ipAddress=function(option)
      genIPinput(this);
      return this;
 };
+$.fn.getCurrentIDS=function()
+{
+	return this.selfsettings.xhforID;
+};
 $.fn.setIPValue=function(ipval)
 {
 	var xharr=$(this).data("myself").selfsettings.xhforID;
